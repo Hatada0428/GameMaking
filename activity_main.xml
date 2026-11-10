@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text1" />
 
     <Button
-        android:id="@+id/button_A"
+        android:id="@+id/button_Normal"
         android:layout_width="wrap_content"
         android:layout_height="67dp"
         android:layout_marginLeft="128dp"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text2" />
 
     <Button
-        android:id="@+id/button_B"
+        android:id="@+id/button_Hard"
         android:layout_width="147dp"
         android:layout_height="0dp"
         android:layout_marginLeft="128dp"
@@ -54,7 +54,8 @@
         android:text="Hard"
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_A" />
+        app:layout_constraintTop_toBottomOf="@+id/button_Normal"
+        tools:ignore="UnknownId" />
 
     <TextView
         android:id="@+id/text3"
@@ -66,6 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_B" />
+        app:layout_constraintTop_toBottomOf="@+id/button_Hard"
+        tools:ignore="UnknownId" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
