@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#090F20</color>
+    <color name="surface_dark">#142744</color>
+    <color name="surface_light">#1C3455</color>
+
+    <color name="primary_blue">#168BD1</color>
+    <color name="accent_cyan">#78DFFF</color>
+
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#91A9C9</color>
+
+    <color name="correct_green">#42DCA0</color>
+    <color name="incorrect_red">#FF5C75</color>
+</resources>

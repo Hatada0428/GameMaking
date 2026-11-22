@@ -32,5 +32,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btnHard = (Button) findViewById(R.id.button_Hard);
+        btnHard.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClassName("com.example.quiz_typingapplication","com.example.quiz_typingapplication.NormalActivity");
+                startActivity(intent);
+            }
+        });
     }
 }
